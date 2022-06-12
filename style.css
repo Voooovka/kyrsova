@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    padding: 10px;
+}
+
+.buttonsForAlgorithm {
+    margin-top: 50px;
+}
+
+.buttonLed {
+    height: 100px;
+    width: 100px;
+    background-color:  black;
+    border: 2px solid blue;
+    color: #fff;
+    margin: 10px;
+}
+
+.buttonLed:active,
+.active {
+    background: grey;
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
